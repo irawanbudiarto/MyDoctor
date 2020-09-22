@@ -1,16 +1,8 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {ILLogo} from './assets';
+import {Splash} from './pages';
 
 const App = () => {
-  return (
-    <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
-      <ILLogo />
-      <Text>My Doctor</Text>
-    </View>
-  );
+  return <Splash />;
 };
 
 export default App;
-
-const styles = StyleSheet.create({});
