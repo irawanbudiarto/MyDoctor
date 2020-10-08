@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, StyleSheet, ImageBackground} from 'react-native';
 import {ILGetStarted, ILLogo} from '../../assets';
-import {Button} from '../../components/atoms';
+import {Button, Gap} from '../../components/atoms';
 
 const GetStarted = () => {
   return (
@@ -14,7 +14,7 @@ const GetStarted = () => {
       </View>
       <View>
         <Button title="Get Started" />
-        <View style={{height: 16}} />
+        <Gap height={16} />
         <Button title="Sign In" type="secondary" />
       </View>
     </ImageBackground>
@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   title: {
-    fontSize: 28,
-    fontWeight: '600',
+    fontSize: 26,
     color: 'white',
     marginTop: 91,
+    fontFamily: 'Nunito-SemiBold',
   },
 });
