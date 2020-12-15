@@ -31,9 +31,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   title: {
-    fontSize: 26,
+    fontSize: 28,
     color: 'white',
-    marginTop: 91,
-    fontFamily: 'Nunito-SemiBold',
+    marginTop: 110,
   },
 });
