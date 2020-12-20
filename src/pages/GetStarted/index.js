@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, StyleSheet, ImageBackground} from 'react-native';
 import {ILGetStarted, ILLogo} from '../../assets';
-import {Button, Gap} from '../../components/atoms';
+import {Button, Gap} from '../../components';
 
 const GetStarted = ({navigation}) => {
   return (
