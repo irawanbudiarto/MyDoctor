@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {ILLogo} from '../../assets';
 import {Button, Gap, Input, Link} from '../../components';
-import {colors} from '../../utils';
+import {colors, fonts} from '../../utils';
 
 const Login = () => {
   return (
@@ -35,5 +35,6 @@ const styles = StyleSheet.create({
     color: colors.text.primary,
     marginTop: 40,
     marginBottom: 40,
+    fontFamily: fonts.primary[600],
   },
 });
