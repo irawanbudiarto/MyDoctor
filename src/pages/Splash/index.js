@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, StatusBar} from 'react-native';
 import {ILLogo} from '../../assets';
 import {colors, fonts} from '../../utils';
 
@@ -11,6 +11,7 @@ const Splash = ({navigation}) => {
   }, [navigation]);
   return (
     <View style={styles.page}>
+      <StatusBar backgroundColor={'transparent'} translucent={true} />
       <ILLogo />
       <Text style={styles.title}>My Doctor</Text>
     </View>

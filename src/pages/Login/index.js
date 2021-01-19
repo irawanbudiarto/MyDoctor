@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, StatusBar} from 'react-native';
 import {ILLogo} from '../../assets';
 import {Button, Gap, Input, Link} from '../../components';
 import {colors, fonts} from '../../utils';
@@ -7,6 +7,7 @@ import {colors, fonts} from '../../utils';
 const Login = () => {
   return (
     <View style={styles.page}>
+      <StatusBar backgroundColor={colors.primary} translucent={true} />
       <ILLogo />
       <Text style={styles.title}>Masuk dan mulai berkonsultasi</Text>
       <Input label="Email Address" />
